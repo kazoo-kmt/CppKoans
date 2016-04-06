@@ -29,7 +29,7 @@
 void Koan01_number_types::simple_integer_numbers()
 {
   int an_integer = 42;
-  ASSERT_EQUAL( an_integer, FILL_THE_NUMBER_IN );
+  ASSERT_EQUAL( an_integer, 42 );
 }
 
 void Koan01_number_types::integers_have_a_size()
