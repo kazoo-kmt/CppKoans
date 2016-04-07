@@ -35,7 +35,7 @@ void Koan01_number_types::simple_integer_numbers()
 void Koan01_number_types::integers_have_a_size()
 {
   int an_integer = 1;
-  ASSERT_EQUAL( sizeof( int ), FILL_THE_NUMBER_IN );
+  ASSERT_EQUAL( sizeof( int ), 4 );
   ASSERT_EQUAL( sizeof( an_integer ), FILL_THE_NUMBER_IN );
 }
 
