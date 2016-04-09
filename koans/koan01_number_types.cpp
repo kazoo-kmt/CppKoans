@@ -36,14 +36,14 @@ void Koan01_number_types::integers_have_a_size()
 {
   int an_integer = 1;
   ASSERT_EQUAL( sizeof( int ), 4 );
-  ASSERT_EQUAL( sizeof( an_integer ), FILL_THE_NUMBER_IN );
+  ASSERT_EQUAL( sizeof( an_integer ), 4 );
 }
 
 void Koan01_number_types::integers_can_be_negative()
 {
   int an_integer =  -42;
   // You might want to substitute ASSERT_EQUAL with ASSERT and use larger-than comparison
-  ASSERT_EQUAL( an_integer, 0 );
+  ASSERT( an_integer < 0 );
 }
 
 void Koan01_number_types::simple_floats()
