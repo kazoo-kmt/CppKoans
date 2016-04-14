@@ -56,7 +56,7 @@ void Koan01_number_types::floats_have_a_size()
 {
   float a_float = 4.2;
   ASSERT_EQUAL( sizeof( float ), 4 );
-  ASSERT_EQUAL( sizeof( a_float ), FILL_THE_NUMBER_IN );
+  ASSERT_EQUAL( sizeof( a_float ), 4 );
 }
 
 void Koan01_number_types::going_double_precision()
