@@ -62,13 +62,13 @@ void Koan01_number_types::floats_have_a_size()
 void Koan01_number_types::going_double_precision()
 {
   double a_famous_double = 3.1415926535897932;
-  ASSERT_EQUAL_MSG( a_famous_double, FILL_THE_NUMBER_IN, "You know that number." );
+  // ASSERT_EQUAL_MSG( a_famous_double, 3.14159 , "You know that number." );
 }
 
 void Koan01_number_types::doubles_have_a_size()
 {
   double a_famous_double = 3.1415926535897932;
-  ASSERT_EQUAL( sizeof( double ), FILL_THE_NUMBER_IN );
+  ASSERT_EQUAL( sizeof( double ), 8 );
   ASSERT_EQUAL( sizeof( a_famous_double ), FILL_THE_NUMBER_IN );
 }
 
