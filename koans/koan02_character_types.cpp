@@ -37,7 +37,7 @@ void Koan02_character_types::lonely_characters()
 void Koan02_character_types::chars_have_a_size()
 {
   char a_character = 'a';
-  ASSERT_EQUAL( sizeof( char ), FILL_THE_NUMBER_IN );
+  ASSERT_EQUAL( sizeof( char ), 1 );
   ASSERT_EQUAL( sizeof( a_character ), FILL_THE_NUMBER_IN );
 }
 
