@@ -46,7 +46,7 @@ void Koan02_character_types::chars_are_numbers()
   char a_character = 'a';
   ASSERT_EQUAL( int( a_character ), 97 );
   unsigned char the_same_charater = 'a';
-  ASSERT_EQUAL( int( the_same_charater ), FILL_THE_NUMBER_IN );
+  ASSERT_EQUAL( int( the_same_charater ), 97 );
   signed char still_the_same_character = 'a';
   ASSERT_EQUAL( int( still_the_same_character ), FILL_THE_NUMBER_IN );
 }
