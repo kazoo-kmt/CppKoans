@@ -54,7 +54,7 @@ void Koan02_character_types::chars_are_numbers()
 void Koan02_character_types::more_characters_are_strings()
 {
   std::string some_characters = "Hello World";
-  ASSERT_EQUAL( some_characters.length(), FILL_THE_NUMBER_IN );
+  ASSERT_EQUAL( some_characters.length(), 11 );
   ASSERT_EQUAL( some_characters.size(), FILL_THE_NUMBER_IN );
 }
 
