@@ -30,7 +30,7 @@ void Koan05_pointers::they_are_just_variables()
   int an_int = 42;
   int *pointer_to_an_int = &an_int;
   ASSERT_EQUAL( *pointer_to_an_int, 42 );
-  ASSERT_EQUAL( pointer_to_an_int, THIS_IS_NOT_NULL );
+  ASSERT_EQUAL( pointer_to_an_int, &an_int );
 }
 
 void Koan05_pointers::they_are_really_just_variables()
