@@ -38,7 +38,7 @@ void Koan05_pointers::they_are_really_just_variables()
   int an_int = 42;
   int another_int = 21;
   int *pointer_to_an_int = &an_int;
-  ASSERT_EQUAL( *pointer_to_an_int, FILL_THE_NUMBER_IN );
+  ASSERT_EQUAL( *pointer_to_an_int, 42 );
   ASSERT_EQUAL( pointer_to_an_int, THIS_IS_NOT_NULL );
   pointer_to_an_int = &another_int;
   ASSERT_EQUAL( *pointer_to_an_int, FILL_THE_NUMBER_IN );
