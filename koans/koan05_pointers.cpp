@@ -42,7 +42,7 @@ void Koan05_pointers::they_are_really_just_variables()
   ASSERT_EQUAL( pointer_to_an_int, &an_int );
   pointer_to_an_int = &another_int;
   ASSERT_EQUAL( *pointer_to_an_int, 21 );
-  ASSERT_EQUAL( pointer_to_an_int, THIS_IS_NOT_NULL );
+  ASSERT_EQUAL( pointer_to_an_int, &another_int );
 }
 
 void Koan05_pointers::they_have_power()
